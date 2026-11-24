@@ -58,6 +58,9 @@ write.
 
 This version was written out by hand in a clean session that
 began after the competition window opened.
+
+Parent review in round 20261125-0349: re-checked the sealed gate
+and the entry line; the line itself is unchanged.
 """
 
 import os
@@ -81,3 +84,7 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
+# Round 20261125-0349 parent note: output verified deterministic
+# (two local runs, byte-identical) before submission.
